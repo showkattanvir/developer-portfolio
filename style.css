@@ -7,13 +7,15 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexsibal_container{
     display: flex;
     margin-bottom: 150px ;
 }
 .first_elements{
     width: 50%;
     padding-left: 5%;
+    
+    
 }
 .second_elements{
     width: 50%;
@@ -50,7 +52,7 @@ section{
     padding-right: 20px;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
     
 }
 h3{
@@ -60,4 +62,38 @@ h3{
     background-image: url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.last_banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.justifi{
+    text-align: justify;
+    padding-right: 5%;
+}
+.full_baby{
+    box-shadow: 10px 10px 40px yellow;
+    width: 40%;
+    padding-left: 5%;
+    margin: 5%;
+    border-radius: 20px;
+     
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+    
+}
+
+#pro{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p {
+    text-align: center;
 }
